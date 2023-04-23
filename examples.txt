@@ -1,0 +1,28 @@
+https://www.cnn.com/2023/04/03/tech/china-micron-probe-us-chip-war-intl-hnk/index.html
+
+entity:
+COMPANY {Micron Technology}
+COUNTRY {China}
+ORGANIZATION {Cyberspace Administration of China}
+COUNTRY {Japan}
+COUNTRY {United States}
+COUNTRY {Netherlands}
+INDUSTRY {semiconductor}
+PRODUCT {memory chips}
+COMPANY {Mintz Group}
+COMPANY {Deloitte}
+
+relationship:
+{Micron Technology} PRODUCES {memory chips}
+{Micron Technology} DERIVES_REVENUE_FROM {China}
+{Cyberspace Administration of China} CONDUCTS_CYBERSECURITY_PROBE_OF {Micron Technology}
+{Japan} RESTRICTS_EXPORT_OF {advanced chip manufacturing equipment}
+{United States} BANS_CHINESE_COMPANIES_FROM_BUYING {advanced chips and chipmaking equipment}
+{Netherlands} RESTRICTS_OVERSEAS_SALES_OF {semiconductor technology}
+{Mintz Group} HAS_BEIJING_OFFICE_CLOSED_BY {Chinese authorities}
+{Deloitte} HAS_OPERATIONS_SUSPENDED_BY {Chinese authorities}
+
+current_event:
+CYBERSECURITY_PROBE {Micron Technology, China}
+RESTRICTIONS_ON_TECH_EXPORTS {China, Japan, United States, Netherlands}
+OFFICE_CLOSURE_AND_SUSPENSION {Mintz Group, Deloitte, China}
